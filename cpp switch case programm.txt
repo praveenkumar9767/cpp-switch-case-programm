@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+     char alphabat;
+     cout<< " enter the character"<< endl;
+     cin>> alphabat ;
+     switch(alphabat){
+        case 'a':
+        cout<< "you type a=technology"<< endl;
+        break;
+        case 'b':
+        cout<< "you type b=backend technology "<< endl;
+        break;
+        case 'c':
+        cout<< " you type c= current flow "<< endl;
+        break;
+        case 'd':
+        cout<< "devlopment " << endl;
+        break;
+        case 'e':
+        cout<< " electronic items "<< endl;
+        break;
+        case 'f':
+        cout<< " java script"<< endl;
+        break;
+        case 'g':
+        cout<< " game devlopment"<< endl;
+        break;
+        default: {
+            cout<< " its a non valid character"<< endl;
+        }
+
+     }
+}
